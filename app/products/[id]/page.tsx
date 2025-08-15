@@ -37,7 +37,7 @@ export default function ProductDetailPage() {
         <p className="text-gray-500 mb-4">{t('ProductDetail.category')}: <span className="font-semibold">{product.category}</span></p>
         <button
           onClick={() => dispatch(addToCart(product))}
-          className="w-full md:w-auto bg-blue-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-600 transition-colors"
+          className="w-full md:w-auto bg-blue-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-600 transition-colors cursor-pointer"
         >
           {t('ProductDetail.addToCart')}
         </button>

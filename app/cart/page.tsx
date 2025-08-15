@@ -52,7 +52,7 @@ export default function CartPage() {
           </div>
         </div>
         <Link href="/checkout">
-          <button className="mt-6 w-full bg-blue-500 text-white font-bold py-3 rounded-lg hover:bg-blue-600 transition-colors">
+          <button className="mt-6 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 rounded-lg hover:bg-blue-600 transition-colors cursor-pointer">
             {t('CartPage.checkout')}
           </button>
         </Link>

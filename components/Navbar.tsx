@@ -49,14 +49,14 @@ export default function Navbar() {
           <div className="flex items-center space-x-2">
             <button
               onClick={() => changeLanguage('tr')}
-              className={`font-medium ${i18n.language === 'tr' ? 'text-blue-600' : 'text-gray-600'}`}
+              className={`cursor-pointer font-medium ${i18n.language === 'tr' ? 'text-blue-600' : 'text-gray-600'}`}
             >
               TR
             </button>
             <span className="text-gray-400">|</span>
             <button
               onClick={() => changeLanguage('en')}
-              className={`font-medium ${i18n.language === 'en' ? 'text-blue-600' : 'text-gray-600'}`}
+              className={`cursor-pointer font-medium ${i18n.language === 'en' ? 'text-blue-600' : 'text-gray-600'}`}
             >
               EN
             </button>

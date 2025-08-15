@@ -49,7 +49,7 @@ export default function HomePage() {
                     e.preventDefault();
                     dispatch(addToCart(product));
                   }}
-                  className="mt-4 w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition-colors"
+                  className="mt-4 w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition-colors cursor-pointer"
                 >
                   {t('addToCart')}
                 </button>
