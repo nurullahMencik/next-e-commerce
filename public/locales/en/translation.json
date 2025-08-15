@@ -1,0 +1,48 @@
+{
+  "common": {
+    "products": "Products",
+    "cart": "Cart",
+    "home": "Home"
+  },
+  "HomePage": {
+    "title": "Featured Products",
+    "loading": "Loading products...",
+    "error": "Failed to load products.",
+    "price": "Price"
+  },
+  "ProductsPage": {
+    "title": "All Products",
+    "category": "Category",
+    "all": "All",
+    "priceRange": "Price Range",
+    "sortBy": "Sort By",
+    "none": "Select",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low"
+  },
+  "ProductDetail": {
+    "category": "Category",
+    "addToCart": "Add to Cart"
+  },
+  "CartPage": {
+    "title": "My Cart",
+    "emptyCart": "Your cart is empty. Please add some products to start shopping.",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "remove": "Remove"
+  },
+  "CheckoutPage": {
+    "title": "Checkout",
+    "orderSummary": "Order Summary",
+    "deliveryInfo": "Delivery Information",
+    "fullName": "Full Name",
+    "email": "Email",
+    "address": "Address",
+    "completePayment": "Complete Payment",
+    "alertEmpty": "Your cart is empty. Please add some products.",
+    "alertFillInfo": "Please fill in all the information.",
+    "alertSuccess": "Payment successful! Your order has been placed.",
+    "backHome": "Back to Home"
+  },
+  "addToCart": "Add to Cart"
+}

@@ -1,40 +1,78 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-Commerce Web Uygulaması
 
-## Getting Started
+Bu proje, modern bir e-ticaret uygulamasının temel özelliklerini içerir.
+ Ürün listeleme, 
+ gelişmiş filtreleme, 
+ sepet yönetimi ve ödeme işlemleri gibi ana işlevleri barındırır.
 
-First, run the development server:
+## Canlı Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Bu projeyi canlı olarak görmek için aşağıdaki adresi ziyaret edebilirsiniz.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Özellikler
 
-## Learn More
+-   **Ürün Listeleme:** FakeStoreAPI'den çekilen ürünleri şık bir arayüzle listeler.
+-   **Gelişmiş Filtreleme:** Ürünleri kategoriye, fiyat aralığına ve sıralama seçeneklerine göre filtreleme imkanı sunar.
+-   **Sepet Yönetimi:** Redux Toolkit ile ürün ekleme, çıkarma ve miktar güncelleme gibi sepet işlevleri.
+-   **Ürün Detay Sayfası:** Dinamik yönlendirme ile her ürün için özel bir detay sayfası.
+-   **Ödeme Sayfası:** Basit bir form ile sipariş özeti ve sahte ödeme işlemi simülasyonu.
+-   **Çok Dilli Destek (`i18next`):** Kullanıcıların arayüz dilini Türkçe ve İngilizce arasında değiştirmesine olanak tanır.
+-   **Modern Tasarım:** Tailwind CSS ile oluşturulmuş şık ve mobil uyumlu kullanıcı arayüzü.
 
-To learn more about Next.js, take a look at the following resources:
+## Kullanılan Teknolojiler
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   **Next.js (App Router):** Performanslı ve SEO dostu React tabanlı web uygulaması çatısı.
+-   **TypeScript:** Statik tipleme ile daha güvenilir ve bakımı kolay kod.
+-   **Redux Toolkit (RTK Query):** Durum yönetimi ve veri çekme işlemlerini kolaylaştıran kütüphane.
+-   **i18next & react-i18next:** Uluslararasılaştırma ve dil yönetimi.
+-   **Tailwind CSS:** Hızlı UI geliştirme için atomik CSS sınıf kütüphanesi.
+-   **FakeStoreAPI:** Geliştirme sürecinde ürün verilerini sağlayan ücretsiz API.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Proje Yapısı
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Projenin temel dosya ve klasör yapısı aşağıda gösterilmiştir:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-read
->>>>>>> 44c39a760b06f873118ba09210e975f5a9f777b9
+````
+├── app/
+│   ├── cart/
+│   │   └── page.tsx
+│   ├── checkout/
+│   │   └── page.tsx
+│   ├── components/
+│   │   └── Navbar.tsx
+│   ├── products/
+│   │   ├── [id]/
+│   │   │   └── page.tsx
+│   │   └── page.tsx
+│   ├── providers.tsx   <- Yeni provider dosyası
+│   ├── favicon.ico
+│   ├── globals.css
+│   └── layout.tsx
+├── public/
+│   └── locales/
+│       ├── en/
+│       │   └── translation.json
+│       └── tr/
+│           └── translation.json
+├── store/
+│   ├── slices/
+│   │   └── cartSlice.ts
+│   ├── services/
+│   │   └── productsApi.ts
+│   └── store.ts
+├── types/
+│   └── index.ts
+├── .gitignore
+├── next.config.mjs
+├── package.json
+├── README.md
+├── tsconfig.json
+````
+
+## Hazırlayan
+Nurullah Mencik
+nurullahemncik42@gmail.com

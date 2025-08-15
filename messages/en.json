@@ -1,0 +1,11 @@
+{
+  "HomePage": {
+    "featuredProductsTitle": "Featured Products",
+    "loading": "Loading products...",
+    "error": "Failed to load products."
+  },
+  "Common": {
+    "addToCart": "Add to Cart",
+    "price": "Price"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "HomePage": {
+    "featuredProductsTitle": "Öne Çıkan Ürünler",
+    "loading": "Ürünler yükleniyor...",
+    "error": "Ürünler yüklenirken bir hata oluştu."
+  },
+  "Common": {
+    "addToCart": "Sepete Ekle",
+    "price": "Fiyat"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "common": {
+    "products": "Ürünler",
+    "cart": "Sepet",
+    "home": "Anasayfa"
+  },
+  "HomePage": {
+    "title": "Öne Çıkan Ürünler",
+    "loading": "Ürünler Yükleniyor...",
+    "error": "Ürünler yüklenirken bir hata oluştu.",
+    "price": "Fiyat"
+  },
+  "ProductsPage": {
+    "title": "Tüm Ürünler",
+    "category": "Kategori",
+    "all": "Tümü",
+    "priceRange": "Fiyat Aralığı",
+    "sortBy": "Sırala",
+    "none": "Seçiniz",
+    "priceAsc": "Fiyata Göre Artan",
+    "priceDesc": "Fiyata Göre Azalan"
+  },
+  "ProductDetail": {
+    "category": "Kategori",
+    "addToCart": "Sepete Ekle"
+  },
+  "CartPage": {
+    "title": "Sepetim",
+    "emptyCart": "Sepetiniz boş. Lütfen alışverişe başlamak için ürün ekleyin.",
+    "total": "Toplam",
+    "checkout": "Ödemeye Geç",
+    "remove": "Kaldır"
+  },
+  "CheckoutPage": {
+    "title": "Ödeme Sayfası",
+    "orderSummary": "Sipariş Özeti",
+    "deliveryInfo": "Teslimat Bilgileri",
+    "fullName": "Ad Soyad",
+    "email": "E-posta",
+    "address": "Adres",
+    "completePayment": "Ödemeyi Tamamla",
+    "alertEmpty": "Sepetiniz boş. Lütfen ürün ekleyin.",
+    "alertFillInfo": "Lütfen tüm bilgileri doldurun.",
+    "alertSuccess": "Ödeme başarılı! Siparişiniz alınmıştır.",
+    "backHome": "Ana Sayfaya Dön"
+  },
+  "addToCart": "Sepete Ekle"
+}
