@@ -6,7 +6,7 @@ Bu proje, modern bir e-ticaret uygulamasının temel özelliklerini içerir.
  sepet yönetimi ve ödeme işlemleri gibi ana işlevleri barındırır.
 
 ## Canlı Demo
-
+https://next-e-commerce-alpha.vercel.app
 Bu projeyi canlı olarak görmek için aşağıdaki adresi ziyaret edebilirsiniz.
 
 
@@ -75,4 +75,4 @@ Projenin temel dosya ve klasör yapısı aşağıda gösterilmiştir:
 
 ## Hazırlayan
 Nurullah Mencik
-nurullahemncik42@gmail.com
+nurullahmencik42@gmail.com
